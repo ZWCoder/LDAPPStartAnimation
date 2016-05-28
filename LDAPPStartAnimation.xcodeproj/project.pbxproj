@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		63214D8C1CF9367C005923F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214D8B1CF9367C005923F2 /* main.m */; };
 		63214D8F1CF9367C005923F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214D8E1CF9367C005923F2 /* AppDelegate.m */; };
-		63214D921CF9367C005923F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214D911CF9367C005923F2 /* ViewController.m */; };
-		63214D951CF9367C005923F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63214D931CF9367C005923F2 /* Main.storyboard */; };
 		63214D971CF9367C005923F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63214D961CF9367C005923F2 /* Assets.xcassets */; };
 		63214D9A1CF9367C005923F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63214D981CF9367C005923F2 /* LaunchScreen.storyboard */; };
 		63214DA51CF9367D005923F2 /* LDAPPStartAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214DA41CF9367D005923F2 /* LDAPPStartAnimationTests.m */; };
 		63214DB01CF9367D005923F2 /* LDAPPStartAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214DAF1CF9367D005923F2 /* LDAPPStartAnimationUITests.m */; };
+		63214DC41CF93A18005923F2 /* LDStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214DC01CF93A18005923F2 /* LDStartViewController.m */; };
+		63214DC51CF93A18005923F2 /* LDStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63214DC11CF93A18005923F2 /* LDStartViewController.xib */; };
+		63214DCC1CF93A86005923F2 /* animate.png in Resources */ = {isa = PBXBuildFile; fileRef = 63214DCA1CF93A86005923F2 /* animate.png */; };
+		63214DCD1CF93A86005923F2 /* animate_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63214DCB1CF93A86005923F2 /* animate_gif.gif */; };
+		63214DD11CF93B2D005923F2 /* LDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63214DCF1CF93B2D005923F2 /* LDViewController.m */; };
+		63214DD21CF93B2D005923F2 /* LDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63214DD01CF93B2D005923F2 /* LDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		63214D8B1CF9367C005923F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63214D8D1CF9367C005923F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63214D8E1CF9367C005923F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63214D901CF9367C005923F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63214D911CF9367C005923F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63214D941CF9367C005923F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63214D961CF9367C005923F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63214D991CF9367C005923F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63214D9B1CF9367C005923F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		63214DAB1CF9367D005923F2 /* LDAPPStartAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDAPPStartAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63214DAF1CF9367D005923F2 /* LDAPPStartAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDAPPStartAnimationUITests.m; sourceTree = "<group>"; };
 		63214DB11CF9367D005923F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63214DBF1CF93A18005923F2 /* LDStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDStartViewController.h; sourceTree = "<group>"; };
+		63214DC01CF93A18005923F2 /* LDStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDStartViewController.m; sourceTree = "<group>"; };
+		63214DC11CF93A18005923F2 /* LDStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDStartViewController.xib; sourceTree = "<group>"; };
+		63214DCA1CF93A86005923F2 /* animate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animate.png; sourceTree = "<group>"; };
+		63214DCB1CF93A86005923F2 /* animate_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animate_gif.gif; sourceTree = "<group>"; };
+		63214DCE1CF93B2D005923F2 /* LDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDViewController.h; sourceTree = "<group>"; };
+		63214DCF1CF93B2D005923F2 /* LDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDViewController.m; sourceTree = "<group>"; };
+		63214DD01CF93B2D005923F2 /* LDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +110,16 @@
 		63214D891CF9367C005923F2 /* LDAPPStartAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				63214DCA1CF93A86005923F2 /* animate.png */,
+				63214DCB1CF93A86005923F2 /* animate_gif.gif */,
+				63214DBF1CF93A18005923F2 /* LDStartViewController.h */,
+				63214DC01CF93A18005923F2 /* LDStartViewController.m */,
+				63214DC11CF93A18005923F2 /* LDStartViewController.xib */,
 				63214D8D1CF9367C005923F2 /* AppDelegate.h */,
 				63214D8E1CF9367C005923F2 /* AppDelegate.m */,
-				63214D901CF9367C005923F2 /* ViewController.h */,
-				63214D911CF9367C005923F2 /* ViewController.m */,
-				63214D931CF9367C005923F2 /* Main.storyboard */,
+				63214DCE1CF93B2D005923F2 /* LDViewController.h */,
+				63214DCF1CF93B2D005923F2 /* LDViewController.m */,
+				63214DD01CF93B2D005923F2 /* LDViewController.xib */,
 				63214D961CF9367C005923F2 /* Assets.xcassets */,
 				63214D981CF9367C005923F2 /* LaunchScreen.storyboard */,
 				63214D9B1CF9367C005923F2 /* Info.plist */,
@@ -245,7 +259,10 @@
 			files = (
 				63214D9A1CF9367C005923F2 /* LaunchScreen.storyboard in Resources */,
 				63214D971CF9367C005923F2 /* Assets.xcassets in Resources */,
-				63214D951CF9367C005923F2 /* Main.storyboard in Resources */,
+				63214DD21CF93B2D005923F2 /* LDViewController.xib in Resources */,
+				63214DCC1CF93A86005923F2 /* animate.png in Resources */,
+				63214DC51CF93A18005923F2 /* LDStartViewController.xib in Resources */,
+				63214DCD1CF93A86005923F2 /* animate_gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63214D921CF9367C005923F2 /* ViewController.m in Sources */,
+				63214DD11CF93B2D005923F2 /* LDViewController.m in Sources */,
 				63214D8F1CF9367C005923F2 /* AppDelegate.m in Sources */,
 				63214D8C1CF9367C005923F2 /* main.m in Sources */,
+				63214DC41CF93A18005923F2 /* LDStartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +326,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63214D931CF9367C005923F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63214D941CF9367C005923F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63214D981CF9367C005923F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +508,7 @@
 				63214DB61CF9367D005923F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63214DB71CF9367D005923F2 /* Build configuration list for PBXNativeTarget "LDAPPStartAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				63214DB91CF9367D005923F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63214DBA1CF9367D005923F2 /* Build configuration list for PBXNativeTarget "LDAPPStartAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				63214DBC1CF9367D005923F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

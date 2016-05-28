@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LDStartViewController.h"
+#import "LDViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    LDStartViewController *c = [LDStartViewController startViewControllerWithGifName:@"animate_gif.gif" timingTime:3 endBlock:^{
+        self.window.rootViewController = [[LDViewController alloc] init];
+    }];
+    self.window.rootViewController = c;
+    
     return YES;
 }
 

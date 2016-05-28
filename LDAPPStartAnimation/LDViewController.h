@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LDViewController.h
 //  LDAPPStartAnimation
 //
 //  Created by Daredos on 16/5/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LDViewController : UIViewController
 
 @end
-
